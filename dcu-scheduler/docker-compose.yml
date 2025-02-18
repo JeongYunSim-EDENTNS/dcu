@@ -1,0 +1,16 @@
+services:
+  dcu-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: bridge
+    restart: on-failure
+    environment:
+      TZ: Asia/Seoul
+      PYTHONUNBUFFERED: 1
+    volumes:
+      - ./app_config.yaml:/app/app_config.yaml # 설정 파일 경로
+      - ./resources:/app/resources # 리소스 경로
+      - ../data/output:/app/output # 결과 파일 경로
+      - ../data/share:/app/share # 공유 파일 경로
+      - ./logs:/app/logs # 로그 경로

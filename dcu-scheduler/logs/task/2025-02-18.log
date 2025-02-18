@@ -1,0 +1,409 @@
+2025-02-18 13:45:27,519 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:45:27,519 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:45:27,520 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:45:27,520 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:45:57,516 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:45:57,517 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:45:57,517 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:45:57,517 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:46:27,516 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:46:27,516 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:46:27,517 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:46:27,517 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:46:57,516 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:46:57,516 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:46:57,516 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:46:57,517 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:47:27,515 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:47:27,516 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:47:27,516 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:47:27,516 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:48:28,058 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:48:28,058 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:48:28,062 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:48:28,063 ERROR    task             run_task  작업 실행 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:48:58,078 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:48:58,078 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:48:58,078 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:48:58,078 ERROR    task             run_task  작업 실행 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:49:28,080 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:49:28,080 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:49:28,080 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:49:28,080 ERROR    task             run_task  작업 실행 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:49:58,079 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:49:58,079 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:49:58,079 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:49:58,079 ERROR    task             run_task  작업 실행 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:50:28,079 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:50:28,079 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:50:28,079 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:50:28,079 ERROR    task             run_task  작업 실행 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:50:58,078 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:50:58,079 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:50:58,079 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:50:58,079 ERROR    task             run_task  작업 실행 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:51:43,951 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:51:43,951 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:51:43,951 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:51:43,952 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:52:13,949 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:52:13,949 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:52:13,950 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:52:13,950 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:52:56,131 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:52:56,131 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:52:56,132 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'OracleDatabase' object has no attribute 'aio_execute'
+2025-02-18 13:52:56,132 ERROR    task             run_task  작업 실행 중 오류 발생 / 'OracleDatabase' object has no attribute 'aio_execute'
+2025-02-18 13:53:26,126 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:53:26,126 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:53:26,127 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'OracleDatabase' object has no attribute 'aio_execute'
+2025-02-18 13:53:26,127 ERROR    task             run_task  작업 실행 중 오류 발생 / 'OracleDatabase' object has no attribute 'aio_execute'
+2025-02-18 13:55:19,880 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:55:19,880 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:55:19,881 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:55:19,881 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:55:49,878 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:55:49,878 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:55:49,878 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:55:49,878 ERROR    task             run_task  작업 실행 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:56:40,426 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:56:40,427 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:56:40,428 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:56:40,428 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:57:10,424 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:57:10,424 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:57:10,424 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:57:10,424 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:57:53,323 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:57:53,323 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:57:53,323 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:57:53,323 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:58:23,321 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:58:23,321 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:58:23,321 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:58:23,321 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:58:53,293 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:58:53,293 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:58:53,293 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:58:53,294 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:59:23,321 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 13:59:23,322 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 13:59:23,322 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:59:23,322 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 14:01:24,307 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:01:24,307 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:01:24,308 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:01:24,308 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:01:54,304 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:01:54,304 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:01:54,305 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:01:54,305 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:02:24,305 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:02:24,305 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:02:24,306 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:02:24,306 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:02:54,304 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:02:54,304 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:02:54,304 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:02:54,305 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:03:24,306 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:03:24,306 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:03:24,306 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:03:24,306 ERROR    task             run_task  작업 실행 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:04:25,338 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:04:25,339 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:04:25,339 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / connect() got an unexpected keyword argument 'thick_mode'
+2025-02-18 14:04:25,339 ERROR    task             run_task  작업 실행 중 오류 발생 / connect() got an unexpected keyword argument 'thick_mode'
+2025-02-18 14:05:22,862 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:05:22,862 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:05:22,863 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / module 'oracledb' has no attribute 'thin'
+2025-02-18 14:05:22,863 ERROR    task             run_task  작업 실행 중 오류 발생 / module 'oracledb' has no attribute 'thin'
+2025-02-18 14:06:15,293 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:06:15,293 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:06:15,323 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:06:15,324 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:06:45,290 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:06:45,290 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:06:45,294 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:06:45,294 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:07:15,273 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:07:15,273 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:07:15,276 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:07:15,276 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:07:45,290 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:07:45,290 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:07:45,293 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:07:45,294 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:08:15,289 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:08:15,290 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:08:15,293 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:08:15,293 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:08:45,290 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:08:45,290 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:08:45,293 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:08:45,293 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:09:15,279 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:09:15,279 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:09:15,282 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:09:15,282 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:10:47,699 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:10:47,699 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:10:47,729 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:10:47,729 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:11:57,526 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:11:57,526 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:11:57,556 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:11:57,557 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:12:27,504 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:12:27,504 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:12:27,507 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:12:27,507 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:13:18,537 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:13:18,537 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:13:18,567 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:13:18,568 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:13:48,542 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:13:48,542 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:13:48,545 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:13:48,545 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:14:42,368 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:14:42,368 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:14:42,416 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:14:42,417 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:15:12,363 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:15:12,363 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:15:12,366 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:15:12,366 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:15:42,372 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:15:42,372 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:15:42,376 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:15:42,376 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:16:12,368 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:16:12,368 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:16:12,371 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:16:12,372 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:16:54,027 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:16:54,027 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:16:54,056 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:16:54,057 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:17:24,006 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:17:24,007 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:17:24,010 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:17:24,010 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:17:54,005 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:17:54,005 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:17:54,008 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:17:54,009 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:28:34,299 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:28:34,299 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:28:34,342 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:28:34,342 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:29:04,318 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:29:04,318 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:29:04,322 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:29:04,322 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:29:34,302 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:29:34,303 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:29:34,305 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:29:34,305 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:30:36,450 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:30:36,451 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:30:36,482 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:30:36,483 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:31:06,427 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:31:06,427 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:31:06,430 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:31:06,430 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:32:18,443 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:32:18,444 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:32:18,444 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:32:18,472 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:32:18,472 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:32:48,464 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:32:48,464 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:32:48,464 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:32:48,466 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:32:48,466 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:33:50,531 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:33:50,532 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:33:50,532 DEBUG    task            Oracle query: SELECT * FROM NOTICE_BOARD WHERE IDX > 1 ORDER BY IDX ASC
+2025-02-18 14:33:50,562 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:33:50,562 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:34:52,132 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:34:52,132 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:34:52,132 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:34:52,160 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:34:52,161 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:35:22,136 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:35:22,136 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:35:22,137 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:35:22,139 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:35:22,139 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:35:52,149 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:35:52,149 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:35:52,150 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:35:52,151 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:35:52,152 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:36:22,158 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:36:22,158 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:36:22,158 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:36:22,161 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:36:22,161 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:36:52,159 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:36:52,159 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:36:52,159 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:36:52,162 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:36:52,162 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:37:22,136 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:37:22,136 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:37:22,136 DEBUG    task            Oracle query: SELECT IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE FROM NOTICE_BOARD WHERE IDX > :1 ORDER BY IDX ASC
+2025-02-18 14:37:22,139 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:37:22,140 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:39:53,240 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:39:53,240 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:39:53,240 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE 
+                FROM NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [1]
+2025-02-18 14:39:53,271 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:39:53,271 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:40:23,263 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:40:23,263 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:40:23,263 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE 
+                FROM NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [1]
+2025-02-18 14:40:23,266 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:40:23,267 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:40:53,247 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:40:53,247 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:40:53,247 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE 
+                FROM NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [1]
+2025-02-18 14:40:53,250 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:40:53,250 ERROR    task             run_task  작업 실행 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:41:39,079 INFO     task             get_initial_last_checked_id  last_checked_id : 1
+2025-02-18 14:41:39,079 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=1)
+2025-02-18 14:41:39,079 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE 
+                FROM DCU.NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [1]
+2025-02-18 14:41:39,080 DEBUG    task            Schema: DCU, Table: NOTICE_BOARD
+2025-02-18 14:41:39,133 INFO     task             run_task  3개의 신규 데이터를 발견했습니다.
+2025-02-18 14:41:39,135 INFO     task             process_new_notices  2
+2025-02-18 14:41:39,220 INFO     task             process_notice:2 
+2025-02-18 14:41:39,220 INFO     task            2
+2025-02-18 14:41:39,220 INFO     task            type(notice): <Model: OracleSourceTable>
+2025-02-18 14:41:39,220 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 14:41:39,373 INFO     task             embed_and_save_notice:2  original_idx=2, chunk=1 저장 완료
+2025-02-18 14:41:39,374 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 14:41:39,374 INFO     task             process_new_notices  3
+2025-02-18 14:41:39,413 INFO     task             process_notice:3 
+2025-02-18 14:41:39,413 INFO     task            3
+2025-02-18 14:41:39,413 INFO     task            type(notice): <Model: OracleSourceTable>
+2025-02-18 14:41:39,413 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 14:41:39,524 INFO     task             embed_and_save_notice:3  original_idx=3, chunk=1 저장 완료
+2025-02-18 14:41:39,524 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 14:41:39,524 INFO     task             process_new_notices  4
+2025-02-18 14:41:39,563 INFO     task             process_notice:4 
+2025-02-18 14:41:39,564 INFO     task            4
+2025-02-18 14:41:39,564 INFO     task            type(notice): <Model: OracleSourceTable>
+2025-02-18 14:41:39,564 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 14:41:39,699 INFO     task             embed_and_save_notice:4  original_idx=4, chunk=1 저장 완료
+2025-02-18 14:41:39,699 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 14:42:09,070 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 14:42:09,071 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=4)
+2025-02-18 14:42:09,071 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE 
+                FROM DCU.NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [4]
+2025-02-18 14:42:09,071 DEBUG    task            Schema: DCU, Table: NOTICE_BOARD
+2025-02-18 14:42:09,072 INFO     task             run_task  신규 데이터가 없습니다.

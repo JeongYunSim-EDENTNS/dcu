@@ -1,0 +1,51 @@
+# 전역 환경 설정
+environment:
+  log_level: "DEBUG"           # 로그 수준: DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# 임베딩 설정
+embedding:
+  model_url: https://engine.edentns.ai/v1 # 임베딩 API URL
+  name : worktro-embed # 모델명
+  max_text_length: 1000 # 임베딩 처리 시 최대 텍스트 길이
+  api_key: "wt-qzTHXaDRylZu5TapX8LHiSxlc3m0b"    # API 인증 키
+  # 임베딩 인증 정보 (API 키가 없을 경우 사용)
+  auth:
+    server_url: https://auth.edentns.ai # 인증 서버 주소
+    realm_name: dcu # Realm 이름
+    client_id: dcu-embedding # Client ID
+    client_secret_key: CsmtQ4mp3pyUnX3z4V4m94MT9f0aKMaS # Client Secret Key
+    username: embeddings # 사용자명
+    password: embeddings # 비밀번호
+
+# 데이터베이스 설정
+databases:
+  source_db:                   # 원본 데이터베이스 설정 (oracle. postgresql)
+    db_type: "oracle"
+    host: 192.168.8.53       # 데이터베이스 호스트
+    port: 1521                 # 포트 번호
+    database_name: "xe"                # 데이터베이스 이름
+    schema_name: "DCU"  # 스키마 이름
+    table_name: "NOTICE_BOARD"    # 테이블 이름
+    username: "scott"            # 사용자 이름
+    password: "tiger"     # 비밀번호
+
+  pgvector_db:                 # pgvector 데이터베이스 설정
+    db_type: "postgresql"
+    host: 192.168.14.145    # 데이터베이스 호스트
+    port: 5432                 # 포트 번호
+    database_name: "poc"                # pgvector 데이터베이스 이름
+    schema_name: "dcu"  # 스키마 이름
+    table_name: "embedding_result"    # 테이블 이름
+    username: "edentns"            # 사용자 이름
+    password: "[P@ssw0rd]"     # 비밀번호
+
+# 스케줄러 설정
+scheduler:
+  refresh_interval: 30        # 데이터 확인 주기 (초 단위)
+  retry_interval: 10           # 재시도 주기 (초)
+  retry_count: 3               # 작업 실패 시 재시도 횟수
+  retry_delay_seconds: 10      # 재시도 전 대기 시간 (초)
+  coalesce: true               # 누락된 스케줄 병합 여부
+  max_instances: 5             # 최대 동시 실행 인스턴스 수
+  misfire_grace_time: 20       # 누락된 스케줄 허용 시간 (초)
+

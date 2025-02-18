@@ -1,0 +1,426 @@
+2025-02-18 13:44:57,469 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:44:57,469 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:44:57,480 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:44:57,482 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:44:57,482 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:45:27 KST)
+2025-02-18 13:45:27,513 INFO     scheduler        check_new_data 
+2025-02-18 13:45:27,514 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:45:27,516 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:45:27,527 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:45:57,512 INFO     scheduler        check_new_data 
+2025-02-18 13:45:57,512 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:45:57,515 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:45:57,518 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:46:27,512 INFO     scheduler        check_new_data 
+2025-02-18 13:46:27,513 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:46:27,515 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:46:27,518 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:46:57,512 INFO     scheduler        check_new_data 
+2025-02-18 13:46:57,513 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:46:57,515 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:46:57,518 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:47:27,512 INFO     scheduler        check_new_data 
+2025-02-18 13:47:27,512 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:47:27,514 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:47:27,517 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:47:58,034 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:47:58,034 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:47:58,043 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:47:58,045 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:47:58,045 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:48:28 KST)
+2025-02-18 13:48:28,053 INFO     scheduler        check_new_data 
+2025-02-18 13:48:28,053 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:48:28,055 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:48:28,071 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:48:58,074 INFO     scheduler        check_new_data 
+2025-02-18 13:48:58,075 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:48:58,076 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:48:58,080 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:49:28,076 INFO     scheduler        check_new_data 
+2025-02-18 13:49:28,076 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:49:28,079 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:49:28,081 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:49:58,075 INFO     scheduler        check_new_data 
+2025-02-18 13:49:58,075 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:49:58,077 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:49:58,081 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:50:28,075 INFO     scheduler        check_new_data 
+2025-02-18 13:50:28,075 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:50:28,078 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:50:28,081 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:50:58,075 INFO     scheduler        check_new_data 
+2025-02-18 13:50:58,075 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:50:58,077 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:50:58,080 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'coroutine' object is not iterable
+2025-02-18 13:51:13,905 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:51:13,905 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:51:13,913 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:51:13,915 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:51:13,915 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:51:43 KST)
+2025-02-18 13:51:43,946 INFO     scheduler        check_new_data 
+2025-02-18 13:51:43,946 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:51:43,948 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:51:43,959 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:52:13,945 INFO     scheduler        check_new_data 
+2025-02-18 13:52:13,946 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:52:13,948 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:52:13,950 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:52:26,081 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:52:26,082 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:52:26,091 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:52:26,093 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:52:26,093 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:52:56 KST)
+2025-02-18 13:52:56,124 INFO     scheduler        check_new_data 
+2025-02-18 13:52:56,125 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:52:56,128 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:52:56,139 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'OracleDatabase' object has no attribute 'aio_execute'
+2025-02-18 13:53:26,123 INFO     scheduler        check_new_data 
+2025-02-18 13:53:26,123 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:53:26,125 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:53:26,128 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'OracleDatabase' object has no attribute 'aio_execute'
+2025-02-18 13:54:49,833 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:54:49,833 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:54:49,842 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:54:49,843 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:54:49,844 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:55:19 KST)
+2025-02-18 13:55:19,875 INFO     scheduler        check_new_data 
+2025-02-18 13:55:19,875 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:55:19,877 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:55:19,888 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:55:49,874 INFO     scheduler        check_new_data 
+2025-02-18 13:55:49,874 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:55:49,876 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:55:49,879 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / 'DatabaseConfig' object has no attribute 'type'
+2025-02-18 13:56:10,381 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:56:10,381 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:56:10,389 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:56:10,390 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:56:10,390 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:56:40 KST)
+2025-02-18 13:56:40,421 INFO     scheduler        check_new_data 
+2025-02-18 13:56:40,422 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:56:40,423 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:56:40,435 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:57:10,420 INFO     scheduler        check_new_data 
+2025-02-18 13:57:10,421 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:57:10,422 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:57:10,426 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:57:23,275 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 13:57:23,275 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 13:57:23,285 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 13:57:23,286 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 13:57:23,287 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 13:57:53 KST)
+2025-02-18 13:57:53,318 INFO     scheduler        check_new_data 
+2025-02-18 13:57:53,318 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:57:53,320 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:57:53,331 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:58:23,317 INFO     scheduler        check_new_data 
+2025-02-18 13:58:23,318 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:58:23,319 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:58:23,322 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:58:53,289 INFO     scheduler        check_new_data 
+2025-02-18 13:58:53,290 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:58:53,291 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:58:53,295 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 13:59:23,317 INFO     scheduler        check_new_data 
+2025-02-18 13:59:23,318 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 13:59:23,320 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 13:59:23,323 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-02-18 14:00:54,261 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:00:54,261 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:00:54,269 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:00:54,270 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:00:54,271 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:01:24 KST)
+2025-02-18 14:01:24,302 INFO     scheduler        check_new_data 
+2025-02-18 14:01:24,302 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:01:24,304 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:01:24,315 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:01:54,300 INFO     scheduler        check_new_data 
+2025-02-18 14:01:54,301 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:01:54,303 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:01:54,306 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:02:24,302 INFO     scheduler        check_new_data 
+2025-02-18 14:02:24,302 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:02:24,304 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:02:24,307 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:02:54,301 INFO     scheduler        check_new_data 
+2025-02-18 14:02:54,301 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:02:54,303 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:02:54,306 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:03:24,302 INFO     scheduler        check_new_data 
+2025-02-18 14:03:24,303 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:03:24,304 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:03:24,307 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / DPI-1047: Cannot locate a 64-bit Oracle Client library: "libclntsh.so: cannot open shared object file: No such file or directory". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+2025-02-18 14:03:55,317 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:03:55,317 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:03:55,324 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:03:55,326 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:03:55,326 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:04:25 KST)
+2025-02-18 14:04:25,333 INFO     scheduler        check_new_data 
+2025-02-18 14:04:25,333 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:04:25,335 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:04:25,346 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / connect() got an unexpected keyword argument 'thick_mode'
+2025-02-18 14:04:52,841 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:04:52,841 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:04:52,849 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:04:52,850 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:04:52,850 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:05:22 KST)
+2025-02-18 14:05:22,857 INFO     scheduler        check_new_data 
+2025-02-18 14:05:22,857 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:05:22,859 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:05:22,870 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / module 'oracledb' has no attribute 'thin'
+2025-02-18 14:05:45,246 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:05:45,246 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:05:45,254 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:05:45,256 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:05:45,256 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:06:15 KST)
+2025-02-18 14:06:15,287 INFO     scheduler        check_new_data 
+2025-02-18 14:06:15,288 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:06:15,289 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:06:15,332 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:06:45,286 INFO     scheduler        check_new_data 
+2025-02-18 14:06:45,286 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:06:45,288 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:06:45,295 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:07:15,269 INFO     scheduler        check_new_data 
+2025-02-18 14:07:15,269 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:07:15,271 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:07:15,278 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:07:45,286 INFO     scheduler        check_new_data 
+2025-02-18 14:07:45,287 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:07:45,288 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:07:45,295 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:08:15,285 INFO     scheduler        check_new_data 
+2025-02-18 14:08:15,286 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:08:15,288 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:08:15,295 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:08:45,286 INFO     scheduler        check_new_data 
+2025-02-18 14:08:45,287 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:08:45,289 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:08:45,295 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:09:15,275 INFO     scheduler        check_new_data 
+2025-02-18 14:09:15,276 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:09:15,277 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:09:15,284 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:09:29,187 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:09:29,187 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:09:29,195 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:09:29,197 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:09:29,198 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:09:59 KST)
+2025-02-18 14:10:17,678 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:10:17,678 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:10:17,687 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:10:17,688 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:10:17,688 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:10:47 KST)
+2025-02-18 14:10:47,694 INFO     scheduler        check_new_data 
+2025-02-18 14:10:47,695 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:10:47,697 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:10:47,736 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:11:27,479 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:11:27,479 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:11:27,488 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:11:27,490 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:11:27,490 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:11:57 KST)
+2025-02-18 14:11:57,521 INFO     scheduler        check_new_data 
+2025-02-18 14:11:57,521 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:11:57,523 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:11:57,564 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:12:27,500 INFO     scheduler        check_new_data 
+2025-02-18 14:12:27,501 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:12:27,502 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:12:27,509 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:12:48,497 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:12:48,497 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:12:48,507 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:12:48,508 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:12:48,509 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:13:18 KST)
+2025-02-18 14:13:18,532 INFO     scheduler        check_new_data 
+2025-02-18 14:13:18,532 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:13:18,534 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:13:18,575 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:13:48,538 INFO     scheduler        check_new_data 
+2025-02-18 14:13:48,539 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:13:48,540 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:13:48,546 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:14:12,348 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:14:12,348 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:14:12,358 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:14:12,359 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:14:12,359 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:14:42 KST)
+2025-02-18 14:14:42,363 INFO     scheduler        check_new_data 
+2025-02-18 14:14:42,363 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:14:42,365 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:14:42,425 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:15:12,360 INFO     scheduler        check_new_data 
+2025-02-18 14:15:12,360 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:15:12,361 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:15:12,367 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:15:42,369 INFO     scheduler        check_new_data 
+2025-02-18 14:15:42,369 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:15:42,371 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:15:42,377 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:16:12,364 INFO     scheduler        check_new_data 
+2025-02-18 14:16:12,365 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:16:12,366 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:16:12,373 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:16:23,983 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:16:23,983 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:16:23,992 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:16:23,994 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:16:23,994 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:16:53 KST)
+2025-02-18 14:16:54,022 INFO     scheduler        check_new_data 
+2025-02-18 14:16:54,022 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:16:54,024 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:16:54,064 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:17:24,003 INFO     scheduler        check_new_data 
+2025-02-18 14:17:24,003 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:17:24,005 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:17:24,011 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:17:54,002 INFO     scheduler        check_new_data 
+2025-02-18 14:17:54,002 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:17:54,004 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:17:54,011 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:28:04,276 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:28:04,277 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:28:04,283 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:28:04,285 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:28:04,285 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:28:34 KST)
+2025-02-18 14:28:34,293 INFO     scheduler        check_new_data 
+2025-02-18 14:28:34,294 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:28:34,296 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:28:34,343 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:29:04,314 INFO     scheduler        check_new_data 
+2025-02-18 14:29:04,315 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:29:04,317 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:29:04,324 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:29:34,299 INFO     scheduler        check_new_data 
+2025-02-18 14:29:34,299 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:29:34,301 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:29:34,306 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+Help: https://docs.oracle.com/error-help/db/ora-00933/
+2025-02-18 14:30:06,411 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:30:06,411 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:30:06,418 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:30:06,419 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:30:06,419 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:30:36 KST)
+2025-02-18 14:30:36,445 INFO     scheduler        check_new_data 
+2025-02-18 14:30:36,446 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:30:36,448 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:30:36,484 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:31:06,424 INFO     scheduler        check_new_data 
+2025-02-18 14:31:06,424 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:31:06,426 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:31:06,431 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:31:48,422 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:31:48,422 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:31:48,429 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:31:48,430 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:31:48,430 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:32:18 KST)
+2025-02-18 14:32:18,437 INFO     scheduler        check_new_data 
+2025-02-18 14:32:18,438 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:32:18,439 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:32:18,474 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:32:48,461 INFO     scheduler        check_new_data 
+2025-02-18 14:32:48,461 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:32:48,463 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:32:48,467 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:33:20,497 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:33:20,497 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:33:20,503 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:33:20,505 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:33:20,505 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:33:50 KST)
+2025-02-18 14:33:50,526 INFO     scheduler        check_new_data 
+2025-02-18 14:33:50,527 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:33:50,529 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:33:50,564 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:34:22,116 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:34:22,116 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:34:22,123 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:34:22,125 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:34:22,125 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:34:52 KST)
+2025-02-18 14:34:52,127 INFO     scheduler        check_new_data 
+2025-02-18 14:34:52,127 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:34:52,129 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:34:52,162 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:35:22,132 INFO     scheduler        check_new_data 
+2025-02-18 14:35:22,133 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:35:22,135 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:35:22,141 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:35:52,146 INFO     scheduler        check_new_data 
+2025-02-18 14:35:52,146 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:35:52,148 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:35:52,153 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:36:22,154 INFO     scheduler        check_new_data 
+2025-02-18 14:36:22,154 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:36:22,156 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:36:22,162 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:36:52,155 INFO     scheduler        check_new_data 
+2025-02-18 14:36:52,156 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:36:52,157 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:36:52,164 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:37:22,133 INFO     scheduler        check_new_data 
+2025-02-18 14:37:22,133 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:37:22,135 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:37:22,141 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00928: 누락된 SELECT 키워드
+Help: https://docs.oracle.com/error-help/db/ora-00928/
+2025-02-18 14:39:23,222 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:39:23,222 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:39:23,228 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:39:23,229 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:39:23,229 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:39:53 KST)
+2025-02-18 14:39:53,234 INFO     scheduler        check_new_data 
+2025-02-18 14:39:53,234 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:39:53,236 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:39:53,273 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:40:23,259 INFO     scheduler        check_new_data 
+2025-02-18 14:40:23,260 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:40:23,262 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:40:23,268 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:40:53,242 INFO     scheduler        check_new_data 
+2025-02-18 14:40:53,243 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:40:53,245 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:40:53,252 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+2025-02-18 14:41:09,035 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 14:41:09,035 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 14:41:09,041 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 14:41:09,043 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 14:41:09,043 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 14:41:39 KST)
+2025-02-18 14:41:39,074 INFO     scheduler        check_new_data 
+2025-02-18 14:41:39,074 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:41:39,076 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 14:42:09,067 INFO     scheduler        check_new_data 
+2025-02-18 14:42:09,067 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 14:42:09,069 INFO     scheduler        check_new_data  watcher is active
