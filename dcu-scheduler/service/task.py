@@ -45,14 +45,24 @@ async def fetch_new_notices(last_checked_id):
             
             full_table_name = f"{schema}.{table_name}" if schema else table_name
             
+            # 필드 목록 생성
+            fields = []
+            field_names = []
+            for field in SourceTable._meta.sorted_fields:
+                if hasattr(field, 'column_name'):
+                    fields.append(field)
+                    field_names.append(field.column_name.upper())
+            
+            # Oracle용 직접 쿼리 작성
             sql = f"""
                 SELECT 
-                    IDX, CODE, SUBJECT, USERID, NAME, CONTENT, SDATE 
+                    {', '.join(field_names)}
                 FROM {full_table_name} 
                 WHERE IDX > :1 
                 ORDER BY IDX ASC
             """
-            bind_vars = [last_checked_id]            
+            bind_vars = [last_checked_id]
+            
             conn = await source_db.connect_async()
             cursor = conn.cursor()
             try:
@@ -64,9 +74,13 @@ async def fetch_new_notices(last_checked_id):
                 if rows:
                     for row in rows:
                         notice = SourceTable()
-                        for i, field in enumerate(SourceTable._meta.sorted_fields):
-                            setattr(notice, field.name, row[i])
+                        for i, field in enumerate(fields):
+                            if i < len(row):  # 인덱스 범위 체크
+                                value = row[i]
+                                if value is not None:  # None이 아닌 경우에만 값 설정
+                                    setattr(notice, field.name, value)
                         result.append(notice)
+                        logger.debug(f"Converted row: {vars(notice)}")  # 변환된 객체 로깅
                 return result
             finally:
                 cursor.close()
@@ -94,7 +108,7 @@ async def embed_and_save_notice(notice, custom_embeder):
         logger.info(f"{invert(f' {job_id} ')} {bold(f'ID={notice.idx}, 제목={notice.subject}')}")
 
         # 텍스트 데이터를 결합 (예: 제목 + 내용)
-        content = f"{notice.subject} {extract_text_from_html(notice.content)}"
+        content = f"{notice.subject} {extract_text_from_html(notice.content)} {notice.memo1}"
 
         # 텍스트를 max_text_length 기준으로 분할
         chunks = [
@@ -106,15 +120,33 @@ async def embed_and_save_notice(notice, custom_embeder):
             # 텍스트 임베딩 생성
             embedding = await custom_embeder.aembed_query(chunk)
 
+            # 각 데이터에서 none이 아닌 경우에  "/" 기준 뒤의 데이터(실제 파일명)을 추출
+            # 첨부 파일 목록 생성
+            attachment = []
+            file_fields = [notice.bbs_file0, notice.bbs_file1, notice.bbs_file2, notice.bbs_file3, notice.bbs_file4]
+            
+            for file_field in file_fields:
+                if file_field is not None:
+                    file_name = file_field.split('/')[-1]
+                    file_type = file_name.split('.')[-1]
+                    file_name_converted = f"{file_field.split('/')[0]}.{file_type}"
+                    attachment.append({
+                        "name_org": file_name,
+                        "name_converted": file_name_converted,
+                        "type": file_type
+                        })
+                    
             # DCUEmbedding 테이블에 데이터 삽입
             query = DCUEmbeddingTable.insert(
                 embedding=embedding,
                 content=chunk,
                 metadata={
-                    "source": "notice_board",
-                    "idx": notice.idx,
+                    "board_name": notice.code,
+                    "subject": notice.subject,
+                    "writer": notice.name,
+                    "attachment" : attachment,
                     "chunk": chunk_index + 1,
-                    "total_chunks": len(chunks),
+                    "total_chunks": len(chunks)
                 },
                 original_idx=notice.idx,  # 공지사항 원본 ID
             )
@@ -151,10 +183,9 @@ async def process_new_notices(new_notices):
     
     for notice in new_notices:
         try:
-            logger.info(f"{invert(f' {job_id} ')} {notice}")
             custom_embeder = create_embedding(config["embedding"])
             await process_notice(notice, custom_embeder)
-            logger.info(f"{invert(f' {job_id} ')} {bold('신규 공지사항 처리 완료')}")
+            logger.info(f"{invert(f' {job_id} ')} {bold('신규 공지사항 처리 완료 original_idx={notice.idx}')}")
             
         except Exception as e:
             logger.error(f"{invert(f' {job_id} ')} {bold('공지사항 처리 중 오류 발생')} / ID={notice.idx}, 오류={e}")

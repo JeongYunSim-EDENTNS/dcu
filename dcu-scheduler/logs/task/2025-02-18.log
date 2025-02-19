@@ -407,3 +407,207 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
             , params: [4]
 2025-02-18 14:42:09,071 DEBUG    task            Schema: DCU, Table: NOTICE_BOARD
 2025-02-18 14:42:09,072 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 16:42:33,743 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-18 16:42:33,743 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-18 16:42:33,773 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / tuple index out of range
+2025-02-18 16:42:33,773 ERROR    task             run_task  작업 실행 중 오류 발생 / tuple index out of range
+2025-02-18 16:43:03,757 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-18 16:43:03,757 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-18 16:43:03,759 ERROR    task             fetch_new_notices  공지사항 데이터 조회 중 오류 발생 / tuple index out of range
+2025-02-18 16:43:03,759 ERROR    task             run_task  작업 실행 중 오류 발생 / tuple index out of range
+2025-02-18 16:44:50,441 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-18 16:44:50,441 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-18 16:44:50,441 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, NAME, CONTENT, MEMO1, BBS_FILE0, BBS_FILE1, BBS_FILE2, BBS_FILE3, BBS_FILE4, SDATE
+                FROM DCU.NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [0]
+2025-02-18 16:44:50,441 DEBUG    task            Schema: DCU, Table: NOTICE_BOARD
+2025-02-18 16:44:50,441 DEBUG    task            Fields: ['IDX', 'CODE', 'SUBJECT', 'NAME', 'CONTENT', 'MEMO1', 'BBS_FILE0', 'BBS_FILE1', 'BBS_FILE2', 'BBS_FILE3', 'BBS_FILE4', 'SDATE']
+2025-02-18 16:44:50,471 DEBUG    task            Converted row: {'__data__': {'idx': 1, 'code': 'notice', 'subject': '2003-1학기 한가정 3명이상 재학생 특별장학금 신청', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f7af3030130>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'subject', 'idx', 'name', 'sdate', 'code', 'content'}, '__rel__': {}}
+2025-02-18 16:44:50,471 DEBUG    task            Converted row: {'__data__': {'idx': 2, 'code': 'notice', 'subject': '폐강과목 및 폐강ㆍ수강 정정기간 안내', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f7af30301c0>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'subject', 'idx', 'name', 'sdate', 'code', 'content'}, '__rel__': {}}
+2025-02-18 16:44:50,472 DEBUG    task            Converted row: {'__data__': {'idx': 3, 'code': 'notice', 'subject': '게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조', 'name': 'ADMIN ', 'content': <oracledb.LOB object at 0x7f7af3030250>, 'sdate': datetime.datetime(2006, 12, 31, 0, 0)}, '_dirty': {'subject', 'idx', 'name', 'sdate', 'code', 'content'}, '__rel__': {}}
+2025-02-18 16:44:50,472 DEBUG    task            Converted row: {'__data__': {'idx': 4, 'code': 'notice', 'subject': '2003학년도 교직과정 오리엔테이션 실시 안내', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f7af30302e0>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'subject', 'idx', 'name', 'sdate', 'code', 'content'}, '__rel__': {}}
+2025-02-18 16:44:50,472 INFO     task             run_task  4개의 신규 데이터를 발견했습니다.
+2025-02-18 16:44:50,473 INFO     task             process_new_notices  1
+2025-02-18 16:44:50,552 INFO     task             process_notice:1 
+2025-02-18 16:44:50,552 INFO     task             embed_and_save_notice:1  ID=1, 제목=2003-1학기 한가정 3명이상 재학생 특별장학금 신청
+2025-02-18 16:44:51,704 ERROR    task             embed_and_save_notice:1  공지사항 처리 중 오류 발생 / original_idx=1, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,704 ERROR    task             process_notice:1  공지사항 처리 중 오류 발생 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,704 INFO     task             embed_and_save_notice:1  ID=1, 제목=2003-1학기 한가정 3명이상 재학생 특별장학금 신청
+2025-02-18 16:44:51,735 ERROR    task             embed_and_save_notice:1  공지사항 처리 중 오류 발생 / original_idx=1, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,735 INFO     task             embed_and_save_notice:1  ID=1, 제목=2003-1학기 한가정 3명이상 재학생 특별장학금 신청
+2025-02-18 16:44:51,765 ERROR    task             embed_and_save_notice:1  공지사항 처리 중 오류 발생 / original_idx=1, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,765 INFO     task             embed_and_save_notice:1  ID=1, 제목=2003-1학기 한가정 3명이상 재학생 특별장학금 신청
+2025-02-18 16:44:51,795 ERROR    task             embed_and_save_notice:1  공지사항 처리 중 오류 발생 / original_idx=1, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,795 ERROR    task             process_new_notices  공지사항 처리 중 오류 발생 / ID=1, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,795 INFO     task             process_new_notices  2
+2025-02-18 16:44:51,829 INFO     task             process_notice:2 
+2025-02-18 16:44:51,829 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 16:44:51,974 ERROR    task             embed_and_save_notice:2  공지사항 처리 중 오류 발생 / original_idx=2, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,974 ERROR    task             process_notice:2  공지사항 처리 중 오류 발생 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,975 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 16:44:52,007 ERROR    task             embed_and_save_notice:2  공지사항 처리 중 오류 발생 / original_idx=2, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,007 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 16:44:52,039 ERROR    task             embed_and_save_notice:2  공지사항 처리 중 오류 발생 / original_idx=2, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,039 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 16:44:52,071 ERROR    task             embed_and_save_notice:2  공지사항 처리 중 오류 발생 / original_idx=2, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,071 ERROR    task             process_new_notices  공지사항 처리 중 오류 발생 / ID=2, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,072 INFO     task             process_new_notices  3
+2025-02-18 16:44:52,107 INFO     task             process_notice:3 
+2025-02-18 16:44:52,107 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 16:44:52,230 ERROR    task             embed_and_save_notice:3  공지사항 처리 중 오류 발생 / original_idx=3, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,230 ERROR    task             process_notice:3  공지사항 처리 중 오류 발생 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,230 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 16:44:52,259 ERROR    task             embed_and_save_notice:3  공지사항 처리 중 오류 발생 / original_idx=3, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,260 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 16:44:52,288 ERROR    task             embed_and_save_notice:3  공지사항 처리 중 오류 발생 / original_idx=3, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,289 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 16:44:52,318 ERROR    task             embed_and_save_notice:3  공지사항 처리 중 오류 발생 / original_idx=3, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,319 ERROR    task             process_new_notices  공지사항 처리 중 오류 발생 / ID=3, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,319 INFO     task             process_new_notices  4
+2025-02-18 16:44:52,354 INFO     task             process_notice:4 
+2025-02-18 16:44:52,354 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 16:44:52,467 ERROR    task             embed_and_save_notice:4  공지사항 처리 중 오류 발생 / original_idx=4, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,467 ERROR    task             process_notice:4  공지사항 처리 중 오류 발생 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,467 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 16:44:52,498 ERROR    task             embed_and_save_notice:4  공지사항 처리 중 오류 발생 / original_idx=4, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,498 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 16:44:52,530 ERROR    task             embed_and_save_notice:4  공지사항 처리 중 오류 발생 / original_idx=4, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,530 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 16:44:52,562 ERROR    task             embed_and_save_notice:4  공지사항 처리 중 오류 발생 / original_idx=4, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,563 ERROR    task             process_new_notices  공지사항 처리 중 오류 발생 / ID=4, 오류='NoneType' object has no attribute 'split'
+2025-02-18 16:48:45,228 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-18 16:48:45,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-18 16:48:45,228 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, NAME, CONTENT, MEMO1, BBS_FILE0, BBS_FILE1, BBS_FILE2, BBS_FILE3, BBS_FILE4, SDATE
+                FROM DCU.NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [0]
+2025-02-18 16:48:45,228 DEBUG    task            Schema: DCU, Table: NOTICE_BOARD
+2025-02-18 16:48:45,228 DEBUG    task            Fields: ['IDX', 'CODE', 'SUBJECT', 'NAME', 'CONTENT', 'MEMO1', 'BBS_FILE0', 'BBS_FILE1', 'BBS_FILE2', 'BBS_FILE3', 'BBS_FILE4', 'SDATE']
+2025-02-18 16:48:45,267 DEBUG    task            Converted row: {'__data__': {'idx': 1, 'code': 'notice', 'subject': '2003-1학기 한가정 3명이상 재학생 특별장학금 신청', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f07d910aa40>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'subject', 'name', 'content', 'idx', 'sdate', 'code'}, '__rel__': {}}
+2025-02-18 16:48:45,267 DEBUG    task            Converted row: {'__data__': {'idx': 2, 'code': 'notice', 'subject': '폐강과목 및 폐강ㆍ수강 정정기간 안내', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f07d910ab30>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'subject', 'name', 'content', 'idx', 'sdate', 'code'}, '__rel__': {}}
+2025-02-18 16:48:45,267 DEBUG    task            Converted row: {'__data__': {'idx': 3, 'code': 'notice', 'subject': '게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조', 'name': 'ADMIN ', 'content': <oracledb.LOB object at 0x7f07d910abc0>, 'sdate': datetime.datetime(2006, 12, 31, 0, 0)}, '_dirty': {'subject', 'name', 'content', 'idx', 'sdate', 'code'}, '__rel__': {}}
+2025-02-18 16:48:45,267 DEBUG    task            Converted row: {'__data__': {'idx': 4, 'code': 'notice', 'subject': '2003학년도 교직과정 오리엔테이션 실시 안내', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f07d9108040>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'subject', 'name', 'content', 'idx', 'sdate', 'code'}, '__rel__': {}}
+2025-02-18 16:48:45,267 INFO     task             run_task  4개의 신규 데이터를 발견했습니다.
+2025-02-18 16:48:45,269 INFO     task             process_new_notices  1
+2025-02-18 16:48:45,349 INFO     task             process_notice:1 
+2025-02-18 16:48:45,349 INFO     task             embed_and_save_notice:1  ID=1, 제목=2003-1학기 한가정 3명이상 재학생 특별장학금 신청
+2025-02-18 16:48:45,516 INFO     task             embed_and_save_notice:1  original_idx=1, chunk=1 저장 완료
+2025-02-18 16:48:45,517 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 16:48:45,517 INFO     task             process_new_notices  2
+2025-02-18 16:48:45,552 INFO     task             process_notice:2 
+2025-02-18 16:48:45,552 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 16:48:45,637 INFO     task             embed_and_save_notice:2  original_idx=2, chunk=1 저장 완료
+2025-02-18 16:48:45,637 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 16:48:45,638 INFO     task             process_new_notices  3
+2025-02-18 16:48:45,671 INFO     task             process_notice:3 
+2025-02-18 16:48:45,671 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 16:48:45,748 INFO     task             embed_and_save_notice:3  original_idx=3, chunk=1 저장 완료
+2025-02-18 16:48:45,749 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 16:48:45,749 INFO     task             process_new_notices  4
+2025-02-18 16:48:45,784 INFO     task             process_notice:4 
+2025-02-18 16:48:45,784 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 16:48:46,036 INFO     task             embed_and_save_notice:4  original_idx=4, chunk=1 저장 완료
+2025-02-18 16:48:46,036 INFO     task             process_new_notices  신규 공지사항 처리 완료
+2025-02-18 17:00:43,334 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:00:43,335 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=8)
+2025-02-18 17:00:43,335 DEBUG    task            Oracle query: 
+                SELECT 
+                    IDX, CODE, SUBJECT, NAME, CONTENT, MEMO1, BBS_FILE0, BBS_FILE1, BBS_FILE2, BBS_FILE3, BBS_FILE4, SDATE
+                FROM DCU.NOTICE_BOARD 
+                WHERE IDX > :1 
+                ORDER BY IDX ASC
+            , params: [8]
+2025-02-18 17:00:43,335 DEBUG    task            Schema: DCU, Table: NOTICE_BOARD
+2025-02-18 17:00:43,335 DEBUG    task            Fields: ['IDX', 'CODE', 'SUBJECT', 'NAME', 'CONTENT', 'MEMO1', 'BBS_FILE0', 'BBS_FILE1', 'BBS_FILE2', 'BBS_FILE3', 'BBS_FILE4', 'SDATE']
+2025-02-18 17:00:43,365 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:34:53,291 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-18 17:34:53,291 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-18 17:34:53,326 DEBUG    task            Converted row: {'__data__': {'idx': 1, 'code': 'notice', 'subject': '2003-1학기 한가정 3명이상 재학생 특별장학금 신청', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f0b7b2b6f80>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'code', 'sdate', 'content', 'subject', 'name', 'idx'}, '__rel__': {}}
+2025-02-18 17:34:53,327 DEBUG    task            Converted row: {'__data__': {'idx': 2, 'code': 'notice', 'subject': '폐강과목 및 폐강ㆍ수강 정정기간 안내', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f0b7b2b7010>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'code', 'sdate', 'content', 'subject', 'name', 'idx'}, '__rel__': {}}
+2025-02-18 17:34:53,327 DEBUG    task            Converted row: {'__data__': {'idx': 3, 'code': 'notice', 'subject': '게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조', 'name': 'ADMIN ', 'content': <oracledb.LOB object at 0x7f0b7b2b70a0>, 'sdate': datetime.datetime(2006, 12, 31, 0, 0)}, '_dirty': {'code', 'sdate', 'content', 'subject', 'name', 'idx'}, '__rel__': {}}
+2025-02-18 17:34:53,327 DEBUG    task            Converted row: {'__data__': {'idx': 4, 'code': 'notice', 'subject': '2003학년도 교직과정 오리엔테이션 실시 안내', 'name': '전산정보팀 ', 'content': <oracledb.LOB object at 0x7f0b7b2b7130>, 'sdate': datetime.datetime(2003, 3, 11, 0, 0)}, '_dirty': {'code', 'sdate', 'content', 'subject', 'name', 'idx'}, '__rel__': {}}
+2025-02-18 17:34:53,327 INFO     task             run_task  4개의 신규 데이터를 발견했습니다.
+2025-02-18 17:34:53,329 INFO     task             process_new_notices  1
+2025-02-18 17:34:53,413 INFO     task             process_notice:1 
+2025-02-18 17:34:53,413 INFO     task             embed_and_save_notice:1  ID=1, 제목=2003-1학기 한가정 3명이상 재학생 특별장학금 신청
+2025-02-18 17:34:53,576 INFO     task             embed_and_save_notice:1  original_idx=1, chunk=1 저장 완료
+2025-02-18 17:34:53,576 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-18 17:34:53,576 INFO     task             process_new_notices  2
+2025-02-18 17:34:53,611 INFO     task             process_notice:2 
+2025-02-18 17:34:53,611 INFO     task             embed_and_save_notice:2  ID=2, 제목=폐강과목 및 폐강ㆍ수강 정정기간 안내
+2025-02-18 17:34:53,731 INFO     task             embed_and_save_notice:2  original_idx=2, chunk=1 저장 완료
+2025-02-18 17:34:53,731 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-18 17:34:53,731 INFO     task             process_new_notices  3
+2025-02-18 17:34:53,766 INFO     task             process_notice:3 
+2025-02-18 17:34:53,766 INFO     task             embed_and_save_notice:3  ID=3, 제목=게시판 변경 안내 - 이전 게시물은 열린광장(기존게시판) 참조
+2025-02-18 17:34:53,851 INFO     task             embed_and_save_notice:3  original_idx=3, chunk=1 저장 완료
+2025-02-18 17:34:53,851 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-18 17:34:53,851 INFO     task             process_new_notices  4
+2025-02-18 17:34:53,888 INFO     task             process_notice:4 
+2025-02-18 17:34:53,888 INFO     task             embed_and_save_notice:4  ID=4, 제목=2003학년도 교직과정 오리엔테이션 실시 안내
+2025-02-18 17:34:54,011 INFO     task             embed_and_save_notice:4  original_idx=4, chunk=1 저장 완료
+2025-02-18 17:34:54,011 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-18 17:35:23,294 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:35:23,294 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:35:23,295 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:35:53,310 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:35:53,310 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:35:53,311 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:36:23,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:36:23,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:36:23,314 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:36:53,310 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:36:53,310 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:36:53,311 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:37:23,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:37:23,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:37:23,314 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:37:53,310 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:37:53,310 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:37:53,311 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:38:23,290 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:38:23,291 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:38:23,292 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:38:53,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:38:53,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:38:53,314 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:39:23,312 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:39:23,312 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:39:23,313 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:39:53,315 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:39:53,315 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:39:53,316 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:40:23,312 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:40:23,312 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:40:23,313 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:40:53,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:40:53,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:40:53,315 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:41:23,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:41:23,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:41:23,315 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:41:53,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:41:53,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:41:53,314 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:42:23,314 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:42:23,314 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:42:23,315 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:42:53,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:42:53,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:42:53,315 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:43:23,312 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:43:23,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:43:23,314 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:43:53,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:43:53,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:43:53,315 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-18 17:44:23,313 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-18 17:44:23,313 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-18 17:44:23,314 INFO     task             run_task  신규 데이터가 없습니다.

@@ -22,8 +22,6 @@ def create_embedding(model_config: EmbeddingConfig):
     else:
         api_key = model_config["api_key"]
 
-    logger.info(f"api_key: {api_key}")
-    
     return CustomEmbeddings(
         openai_api_base=model_config["model_url"],
         model=model_config["name"],

@@ -27,12 +27,29 @@ class PostgresSourceTable(BaseModel_source):
     """원본 데이터베이스 테이블 (PostgreSQL)"""
     
     idx = IntegerField(primary_key=True)
+    """게시글 인덱스"""
     code = CharField(max_length=50)
+    """게시판 코드"""
     subject = CharField(max_length=200)
-    userid = CharField(max_length=16)
+    """게시글 제목"""
     name = CharField(max_length=50)
+    """작성자 이름"""
     content = TextField()
+    """게시글 내용"""
+    memo1 = TextField()
+    """게시글 내용 추가 정보"""
+    bbs_file0 = TextField()
+    """첨부파일 0"""
+    bbs_file1 = TextField()
+    """첨부파일 1"""
+    bbs_file2 = TextField()
+    """첨부파일 2"""
+    bbs_file3 = TextField()
+    """첨부파일 3"""
+    bbs_file4 = TextField()
+    """첨부파일 4"""
     sdate = DateField()
+    """작성일"""
     
     class Meta:
         schema = sourceSchemaName
@@ -43,15 +60,32 @@ class OracleSourceTable(BaseModel_source):
     """원본 데이터베이스 테이블 (Oracle)"""
     
     idx = IntegerField(primary_key=True)
+    """게시글 인덱스"""
     code = CharField(max_length=50)
+    """게시판 코드"""
     subject = CharField(max_length=200)
-    userid = CharField(max_length=16)
+    """게시글 제목"""
     name = CharField(max_length=50)
+    """작성자 이름"""
     content = TextField()  # Oracle에서는 CLOB으로 매핑
+    """게시글 내용"""
+    memo1 = TextField() 
+    """게시글 내용 추가 정보"""
+    bbs_file0 = TextField()
+    """첨부파일 0"""
+    bbs_file1 = TextField()
+    """첨부파일 1"""
+    bbs_file2 = TextField()
+    """첨부파일 2"""
+    bbs_file3 = TextField()
+    """첨부파일 3"""
+    bbs_file4 = TextField()
+    """첨부파일 4"""
     sdate = DateField()
+    """작성일"""
     
     class Meta:
-        table_name = sourceTableName.upper()  # Oracle은 대문자 사용
+        table_name = sourceTableName.upper() 
 
 # 데이터베이스 타입에 따라 적절한 테이블 클래스 선택
 SourceTable = OracleSourceTable if config.source_db.db_type == 'oracle' else PostgresSourceTable

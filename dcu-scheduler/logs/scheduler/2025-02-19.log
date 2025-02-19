@@ -1,0 +1,11 @@
+2025-02-19 13:05:40,187 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-19 13:05:40,187 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-19 13:05:40,193 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-19 13:05:40,195 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-19 13:05:40,195 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-19 13:06:10 KST)
+2025-02-19 13:06:10,226 INFO     scheduler        check_new_data 
+2025-02-19 13:06:10,227 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-19 13:06:10,228 INFO     scheduler        check_new_data  watcher is active
+2025-02-19 13:06:40,225 INFO     scheduler        check_new_data 
+2025-02-19 13:06:40,225 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-19 13:06:40,227 INFO     scheduler        check_new_data  watcher is active

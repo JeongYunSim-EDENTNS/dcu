@@ -1,0 +1,28 @@
+2025-02-18 16:44:51,704 INFO     retry            retry_task:1  작업 재시도 1/3 시작
+2025-02-18 16:44:51,735 ERROR    retry            retry_task:1  작업 재시도 1/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,735 INFO     retry            retry_task:1  작업 재시도 2/3 시작
+2025-02-18 16:44:51,765 ERROR    retry            retry_task:1  작업 재시도 2/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,765 INFO     retry            retry_task:1  작업 재시도 3/3 시작
+2025-02-18 16:44:51,795 ERROR    retry            retry_task:1  작업 재시도 3/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:51,795 ERROR    retry            retry_task:1  최대 재시도 횟수 초과. 작업이 실패했습니다.
+2025-02-18 16:44:51,974 INFO     retry            retry_task:2  작업 재시도 1/3 시작
+2025-02-18 16:44:52,007 ERROR    retry            retry_task:2  작업 재시도 1/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,007 INFO     retry            retry_task:2  작업 재시도 2/3 시작
+2025-02-18 16:44:52,039 ERROR    retry            retry_task:2  작업 재시도 2/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,039 INFO     retry            retry_task:2  작업 재시도 3/3 시작
+2025-02-18 16:44:52,071 ERROR    retry            retry_task:2  작업 재시도 3/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,071 ERROR    retry            retry_task:2  최대 재시도 횟수 초과. 작업이 실패했습니다.
+2025-02-18 16:44:52,230 INFO     retry            retry_task:3  작업 재시도 1/3 시작
+2025-02-18 16:44:52,260 ERROR    retry            retry_task:3  작업 재시도 1/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,260 INFO     retry            retry_task:3  작업 재시도 2/3 시작
+2025-02-18 16:44:52,289 ERROR    retry            retry_task:3  작업 재시도 2/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,289 INFO     retry            retry_task:3  작업 재시도 3/3 시작
+2025-02-18 16:44:52,319 ERROR    retry            retry_task:3  작업 재시도 3/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,319 ERROR    retry            retry_task:3  최대 재시도 횟수 초과. 작업이 실패했습니다.
+2025-02-18 16:44:52,467 INFO     retry            retry_task:4  작업 재시도 1/3 시작
+2025-02-18 16:44:52,498 ERROR    retry            retry_task:4  작업 재시도 1/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,498 INFO     retry            retry_task:4  작업 재시도 2/3 시작
+2025-02-18 16:44:52,530 ERROR    retry            retry_task:4  작업 재시도 2/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,530 INFO     retry            retry_task:4  작업 재시도 3/3 시작
+2025-02-18 16:44:52,562 ERROR    retry            retry_task:4  작업 재시도 3/3 실패 / 'NoneType' object has no attribute 'split'
+2025-02-18 16:44:52,563 ERROR    retry            retry_task:4  최대 재시도 횟수 초과. 작업이 실패했습니다.

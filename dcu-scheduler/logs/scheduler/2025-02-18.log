@@ -424,3 +424,105 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2025-02-18 14:42:09,067 INFO     scheduler        check_new_data 
 2025-02-18 14:42:09,067 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
 2025-02-18 14:42:09,069 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 16:42:03,715 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 16:42:03,716 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 16:42:03,722 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 16:42:03,723 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 16:42:03,724 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 16:42:33 KST)
+2025-02-18 16:42:33,739 INFO     scheduler        check_new_data 
+2025-02-18 16:42:33,739 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 16:42:33,741 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 16:42:33,775 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / tuple index out of range
+2025-02-18 16:43:03,753 INFO     scheduler        check_new_data 
+2025-02-18 16:43:03,754 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 16:43:03,756 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 16:43:03,760 ERROR    scheduler        check_new_data  신규 데이터 확인 및 처리 중 오류 발생 / tuple index out of range
+2025-02-18 16:44:20,418 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 16:44:20,418 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 16:44:20,425 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 16:44:20,426 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 16:44:20,427 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 16:44:50 KST)
+2025-02-18 16:44:50,437 INFO     scheduler        check_new_data 
+2025-02-18 16:44:50,437 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 16:44:50,439 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 16:48:15,184 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 16:48:15,185 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 16:48:15,192 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 16:48:15,194 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 16:48:15,195 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 16:48:45 KST)
+2025-02-18 16:48:45,224 INFO     scheduler        check_new_data 
+2025-02-18 16:48:45,225 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 16:48:45,227 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:00:13,288 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 17:00:13,288 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 17:00:13,296 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 17:00:13,297 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 17:00:13,297 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 17:00:43 KST)
+2025-02-18 17:00:43,328 INFO     scheduler        check_new_data 
+2025-02-18 17:00:43,329 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:00:43,331 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:34:23,269 INFO     scheduler        start  스케줄러 서비스를 시작합니다.
+2025-02-18 17:34:23,270 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화합니다.
+2025-02-18 17:34:23,277 INFO     scheduler        init_scheduler_config  스케줄러 설정을 초기화하였습니다.
+2025-02-18 17:34:23,279 INFO     scheduler        start_notice_watcher  공지사항 변경 감시를 시작합니다.
+2025-02-18 17:34:23,279 INFO     scheduler       등록된 작업: check_new_data (trigger: interval[0:00:30], next run at: 2025-02-18 17:34:53 KST)
+2025-02-18 17:34:53,287 INFO     scheduler        check_new_data 
+2025-02-18 17:34:53,288 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:34:53,290 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:35:23,290 INFO     scheduler        check_new_data 
+2025-02-18 17:35:23,290 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:35:23,292 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:35:53,306 INFO     scheduler        check_new_data 
+2025-02-18 17:35:53,307 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:35:53,308 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:36:23,309 INFO     scheduler        check_new_data 
+2025-02-18 17:36:23,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:36:23,311 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:36:53,306 INFO     scheduler        check_new_data 
+2025-02-18 17:36:53,306 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:36:53,308 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:37:23,309 INFO     scheduler        check_new_data 
+2025-02-18 17:37:23,310 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:37:23,311 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:37:53,306 INFO     scheduler        check_new_data 
+2025-02-18 17:37:53,307 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:37:53,309 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:38:23,286 INFO     scheduler        check_new_data 
+2025-02-18 17:38:23,287 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:38:23,289 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:38:53,309 INFO     scheduler        check_new_data 
+2025-02-18 17:38:53,310 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:38:53,311 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:39:23,308 INFO     scheduler        check_new_data 
+2025-02-18 17:39:23,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:39:23,310 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:39:53,310 INFO     scheduler        check_new_data 
+2025-02-18 17:39:53,311 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:39:53,313 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:40:23,308 INFO     scheduler        check_new_data 
+2025-02-18 17:40:23,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:40:23,311 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:40:53,309 INFO     scheduler        check_new_data 
+2025-02-18 17:40:53,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:40:53,312 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:41:23,309 INFO     scheduler        check_new_data 
+2025-02-18 17:41:23,310 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:41:23,312 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:41:53,309 INFO     scheduler        check_new_data 
+2025-02-18 17:41:53,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:41:53,311 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:42:23,309 INFO     scheduler        check_new_data 
+2025-02-18 17:42:23,310 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:42:23,312 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:42:53,309 INFO     scheduler        check_new_data 
+2025-02-18 17:42:53,310 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:42:53,312 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:43:23,309 INFO     scheduler        check_new_data 
+2025-02-18 17:43:23,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:43:23,311 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:43:53,309 INFO     scheduler        check_new_data 
+2025-02-18 17:43:53,310 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:43:53,312 INFO     scheduler        check_new_data  watcher is active
+2025-02-18 17:44:23,309 INFO     scheduler        check_new_data 
+2025-02-18 17:44:23,309 INFO     scheduler        check_new_data  새로운 데이터 확인 및 처리를 시작합니다.
+2025-02-18 17:44:23,311 INFO     scheduler        check_new_data  watcher is active
