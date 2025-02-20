@@ -5,7 +5,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 from utils.logger import get_logger
 from utils.console import bold, invert
 from service.task import run_task
-from models.tables import DCUEmbeddingTable, SchedulerConfigTable
+from models.tables import SchedulerConfigTable
 from utils.database import manager_pgvector
 
 # Logger 설정

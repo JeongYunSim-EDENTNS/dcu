@@ -28,7 +28,8 @@ def get_config() -> Config:
         scheduler=SchedulerConfig(**config["scheduler"]),
         embedding=EmbeddingConfig(**config["embedding"]),
         source_db=DatabaseConfig(**config["databases"]["source_db"]),
-        pgvector_db=DatabaseConfig(**config["databases"]["pgvector_db"])
+        pgvector_db=DatabaseConfig(**config["databases"]["pgvector_db"]),
+        attachments=AttachmentsConfig(**config["attachments"])
     )
 
 

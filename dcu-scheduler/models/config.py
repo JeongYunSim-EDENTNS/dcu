@@ -85,6 +85,21 @@ class EmbeddingConfig(BaseModel):
     def __getitem__(self, item):
         return getattr(self, item)
 
+class AttachmentsConfig(BaseModel):
+    """첨부파일 관련 서버 설정 클래스"""
+    host: str
+    """서버 주소"""
+    port: int
+    """포트 번호"""
+    username: str
+    """사용자명"""
+    password: str
+    """사용자 비밀번호"""
+    folder_path: str
+    """첨부파일 경로"""
+
+    def __getitem__(self, item):
+        return getattr(self, item)
 
 class Config(BaseModel):
     """전체 설정 클래스"""
@@ -97,6 +112,8 @@ class Config(BaseModel):
     """pgvector 데이터베이스 관련 설정"""
     embedding: EmbeddingConfig
     """임베딩 관련 설정"""
+    attachments: AttachmentsConfig
+    """첨부파일 관련 서버 설정"""
 
     def __getitem__(self, item):
         return getattr(self, item)

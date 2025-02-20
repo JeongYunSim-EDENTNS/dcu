@@ -31,6 +31,7 @@ pandas = "^2.2.2"
 python-keycloak = "^3.9.1"
 cx-oracle = "^8.3.0"
 oracledb = "^1.4.2"
+paramiko = "^3.4.0"
 
 
 [tool.poetry.group.dev.dependencies]

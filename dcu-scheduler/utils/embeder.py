@@ -2,6 +2,7 @@ import openai
 
 from config import config
 from models.config import EmbeddingConfig
+from models.tables import NoticeEmbeddingTable, AttachmentEmbeddingTable
 from utils.logger import get_logger
 from utils.authenticate import get_token
 from customs.embeddings.custom_embeddings import CustomEmbeddings

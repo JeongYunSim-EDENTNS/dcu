@@ -4,3 +4,298 @@
 2025-02-19 13:06:40,228 INFO     task             get_initial_last_checked_id  last_checked_id : 4
 2025-02-19 13:06:40,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
 2025-02-19 13:06:40,229 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:07:10,214 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:07:10,214 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:07:10,215 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:07:40,202 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:07:40,202 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:07:40,204 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:08:10,228 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:08:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:08:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:08:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:08:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:08:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:09:10,201 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:09:10,201 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:09:10,202 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:09:40,203 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:09:40,204 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:09:40,205 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:10:10,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:10:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:10:10,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:10:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:10:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:10:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:11:10,228 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:11:10,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:11:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:11:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:11:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:11:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:12:10,199 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:12:10,200 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:12:10,201 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:12:40,201 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:12:40,201 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:12:40,202 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:13:10,228 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:13:10,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:13:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:13:40,205 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:13:40,205 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:13:40,207 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:14:10,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:14:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:14:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:14:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:14:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:14:40,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:15:10,202 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:15:10,203 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:15:10,204 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:15:40,226 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:15:40,227 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:15:40,228 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:16:10,201 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:16:10,201 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:16:10,202 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:16:40,228 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:16:40,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:16:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:17:10,222 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:17:10,222 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:17:10,224 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:17:40,201 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:17:40,202 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:17:40,203 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:18:10,231 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:18:10,231 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:18:10,233 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:18:40,218 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:18:40,218 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:18:40,220 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:19:10,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:19:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:19:10,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:19:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:19:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:19:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:20:10,213 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:20:10,213 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:20:10,215 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:20:40,206 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:20:40,206 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:20:40,208 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:21:10,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:21:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:21:10,235 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:21:40,208 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:21:40,208 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:21:40,209 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:22:10,202 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:22:10,202 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:22:10,206 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:22:40,208 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:22:40,208 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:22:40,209 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:23:10,204 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:23:10,204 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:23:10,205 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:23:40,205 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:23:40,205 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:23:40,206 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:24:10,228 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:24:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:24:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:24:40,208 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:24:40,208 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:24:40,210 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:25:10,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:25:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:25:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:25:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 4
+2025-02-19 13:25:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=12)
+2025-02-19 13:25:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:26:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:26:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:26:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:26:40,198 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:26:40,199 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:26:40,200 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:27:10,205 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:27:10,205 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:27:10,206 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:27:40,222 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:27:40,222 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:27:40,223 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:28:10,207 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:28:10,207 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:28:10,209 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:28:40,203 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:28:40,203 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:28:40,204 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:29:10,227 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:29:10,227 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:29:10,228 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:29:40,202 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:29:40,202 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:29:40,204 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:30:10,206 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:30:10,206 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:30:10,207 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:30:40,203 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:30:40,203 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:30:40,205 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:31:10,201 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:31:10,201 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:31:10,202 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:31:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:31:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:31:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:32:10,227 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:32:10,227 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:32:10,228 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:32:40,228 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:32:40,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:32:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:33:10,203 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:33:10,203 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:33:10,204 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:33:40,209 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:33:40,209 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:33:40,210 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:34:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:34:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:34:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:34:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:34:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:34:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:35:10,200 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:35:10,200 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:35:10,201 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:35:40,228 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:35:40,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:35:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:36:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:36:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:36:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:36:40,228 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:36:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:36:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:37:10,226 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:37:10,226 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:37:10,228 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:37:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:37:40,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:37:40,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:38:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:38:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:38:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:38:40,230 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:38:40,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:38:40,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:39:10,230 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:39:10,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:39:10,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:39:40,200 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:39:40,201 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:39:40,202 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:40:10,215 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:40:10,216 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:40:10,217 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:40:40,203 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:40:40,203 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:40:40,204 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:41:10,210 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:41:10,210 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:41:10,212 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:41:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:41:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:41:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:42:10,230 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:42:10,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:42:10,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:42:40,221 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:42:40,221 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:42:40,223 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:43:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:43:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:43:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:43:40,230 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:43:40,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:43:40,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:44:10,230 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:44:10,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:44:10,231 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:44:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:44:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:44:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:45:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:45:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:45:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:45:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:45:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:45:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:46:10,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:46:10,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:46:10,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:46:40,229 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:46:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:46:40,230 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:47:10,200 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:47:10,200 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:47:10,201 INFO     task             run_task  신규 데이터가 없습니다.
+2025-02-19 13:47:40,228 INFO     task             get_initial_last_checked_id  DCUEmbedding 테이블이 비어 있습니다. 초기 ID는 0으로 설정됩니다.
+2025-02-19 13:47:40,228 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=0)
+2025-02-19 13:47:40,230 DEBUG    task            Converted row: {'__data__': {'idx': 174649, 'code': 'notice', 'subject': '2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내', 'name': '대학원행정실', 'content': <oracledb.LOB object at 0x7f277f204820>, 'bbs_file0': '202406181056346670e9527a235/2024학년도 후기 2차 일반대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181056346670e9527a572/2024학년도 후기 2차 일반대학원 외국인 모집요강.pdf', 'bbs_file2': '202406181056346670e9527a760/2024학년도 후기 일반대학원 내국인 편입생 모집요강.pdf', 'bbs_file3': '202406181056346670e9527a8fe/2024학년도 후기 일반대학원 외국인 편입생 모집요강.pdf', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'bbs_file3', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:47:40,230 DEBUG    task            Converted row: {'__data__': {'idx': 174652, 'code': 'notice', 'subject': '2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내', 'name': '특수대학원행정실', 'content': <oracledb.LOB object at 0x7f277f205330>, 'bbs_file0': '202406181054166670e8c8599d1/2024학년도 후기2차 특수대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181054166670e8c859bf2/2024학년도 후기 특수대학원 편입생 모집요강.pdf', 'bbs_file2': '202406181054166670e8c859d6c/2024학년도 후기 특수대학원 편입학 지원서류 양식.zip', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:47:40,230 INFO     task             run_task  2개의 신규 데이터를 발견했습니다.
+2025-02-19 13:47:40,317 INFO     task             process_notice:174649 
+2025-02-19 13:47:40,318 INFO     task             embed_and_save_notice:174649  ID=174649, 제목=2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내
+2025-02-19 13:47:40,499 INFO     task             embed_and_save_notice:174649  original_idx=174649, chunk=1 저장 완료
+2025-02-19 13:47:40,500 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:47:40,537 INFO     task             process_notice:174652 
+2025-02-19 13:47:40,538 INFO     task             embed_and_save_notice:174652  ID=174652, 제목=2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내
+2025-02-19 13:47:40,667 INFO     task             embed_and_save_notice:174652  original_idx=174652, chunk=1 저장 완료
+2025-02-19 13:47:40,668 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:48:10,230 INFO     task             get_initial_last_checked_id  last_checked_id : 174652
+2025-02-19 13:48:10,230 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=14)
+2025-02-19 13:48:10,231 DEBUG    task            Converted row: {'__data__': {'idx': 174649, 'code': 'notice', 'subject': '2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내', 'name': '대학원행정실', 'content': <oracledb.LOB object at 0x7f277f296500>, 'bbs_file0': '202406181056346670e9527a235/2024학년도 후기 2차 일반대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181056346670e9527a572/2024학년도 후기 2차 일반대학원 외국인 모집요강.pdf', 'bbs_file2': '202406181056346670e9527a760/2024학년도 후기 일반대학원 내국인 편입생 모집요강.pdf', 'bbs_file3': '202406181056346670e9527a8fe/2024학년도 후기 일반대학원 외국인 편입생 모집요강.pdf', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'bbs_file3', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:48:10,231 DEBUG    task            Converted row: {'__data__': {'idx': 174652, 'code': 'notice', 'subject': '2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내', 'name': '특수대학원행정실', 'content': <oracledb.LOB object at 0x7f277f294880>, 'bbs_file0': '202406181054166670e8c8599d1/2024학년도 후기2차 특수대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181054166670e8c859bf2/2024학년도 후기 특수대학원 편입생 모집요강.pdf', 'bbs_file2': '202406181054166670e8c859d6c/2024학년도 후기 특수대학원 편입학 지원서류 양식.zip', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:48:10,231 INFO     task             run_task  2개의 신규 데이터를 발견했습니다.
+2025-02-19 13:48:10,268 INFO     task             process_notice:174649 
+2025-02-19 13:48:10,269 INFO     task             embed_and_save_notice:174649  ID=174649, 제목=2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내
+2025-02-19 13:48:10,391 INFO     task             embed_and_save_notice:174649  original_idx=174649, chunk=1 저장 완료
+2025-02-19 13:48:10,391 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:48:10,426 INFO     task             process_notice:174652 
+2025-02-19 13:48:10,427 INFO     task             embed_and_save_notice:174652  ID=174652, 제목=2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내
+2025-02-19 13:48:10,555 INFO     task             embed_and_save_notice:174652  original_idx=174652, chunk=1 저장 완료
+2025-02-19 13:48:10,555 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:48:40,229 INFO     task             get_initial_last_checked_id  last_checked_id : 174652
+2025-02-19 13:48:40,229 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=14)
+2025-02-19 13:48:40,231 DEBUG    task            Converted row: {'__data__': {'idx': 174649, 'code': 'notice', 'subject': '2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내', 'name': '대학원행정실', 'content': <oracledb.LOB object at 0x7f277f296560>, 'bbs_file0': '202406181056346670e9527a235/2024학년도 후기 2차 일반대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181056346670e9527a572/2024학년도 후기 2차 일반대학원 외국인 모집요강.pdf', 'bbs_file2': '202406181056346670e9527a760/2024학년도 후기 일반대학원 내국인 편입생 모집요강.pdf', 'bbs_file3': '202406181056346670e9527a8fe/2024학년도 후기 일반대학원 외국인 편입생 모집요강.pdf', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'bbs_file3', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:48:40,232 DEBUG    task            Converted row: {'__data__': {'idx': 174652, 'code': 'notice', 'subject': '2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내', 'name': '특수대학원행정실', 'content': <oracledb.LOB object at 0x7f277f1f7ca0>, 'bbs_file0': '202406181054166670e8c8599d1/2024학년도 후기2차 특수대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181054166670e8c859bf2/2024학년도 후기 특수대학원 편입생 모집요강.pdf', 'bbs_file2': '202406181054166670e8c859d6c/2024학년도 후기 특수대학원 편입학 지원서류 양식.zip', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:48:40,233 INFO     task             run_task  2개의 신규 데이터를 발견했습니다.
+2025-02-19 13:48:40,275 INFO     task             process_notice:174649 
+2025-02-19 13:48:40,275 INFO     task             embed_and_save_notice:174649  ID=174649, 제목=2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내
+2025-02-19 13:48:40,467 INFO     task             embed_and_save_notice:174649  original_idx=174649, chunk=1 저장 완료
+2025-02-19 13:48:40,467 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:48:40,503 INFO     task             process_notice:174652 
+2025-02-19 13:48:40,503 INFO     task             embed_and_save_notice:174652  ID=174652, 제목=2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내
+2025-02-19 13:48:40,660 INFO     task             embed_and_save_notice:174652  original_idx=174652, chunk=1 저장 완료
+2025-02-19 13:48:40,661 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:49:10,215 INFO     task             get_initial_last_checked_id  last_checked_id : 174652
+2025-02-19 13:49:10,215 INFO     task             run_task  신규 공지사항 데이터를 확인합니다...(last_checked_id=14)
+2025-02-19 13:49:10,217 DEBUG    task            Converted row: {'__data__': {'idx': 174649, 'code': 'notice', 'subject': '2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내', 'name': '대학원행정실', 'content': <oracledb.LOB object at 0x7f277f297b50>, 'bbs_file0': '202406181056346670e9527a235/2024학년도 후기 2차 일반대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181056346670e9527a572/2024학년도 후기 2차 일반대학원 외국인 모집요강.pdf', 'bbs_file2': '202406181056346670e9527a760/2024학년도 후기 일반대학원 내국인 편입생 모집요강.pdf', 'bbs_file3': '202406181056346670e9527a8fe/2024학년도 후기 일반대학원 외국인 편입생 모집요강.pdf', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'bbs_file3', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:49:10,217 DEBUG    task            Converted row: {'__data__': {'idx': 174652, 'code': 'notice', 'subject': '2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내', 'name': '특수대학원행정실', 'content': <oracledb.LOB object at 0x7f277f2957e0>, 'bbs_file0': '202406181054166670e8c8599d1/2024학년도 후기2차 특수대학원 신입생 모집요강.pdf', 'bbs_file1': '202406181054166670e8c859bf2/2024학년도 후기 특수대학원 편입생 모집요강.pdf', 'bbs_file2': '202406181054166670e8c859d6c/2024학년도 후기 특수대학원 편입학 지원서류 양식.zip', 'sdate': datetime.datetime(2024, 6, 12, 0, 0)}, '_dirty': {'content', 'bbs_file1', 'subject', 'bbs_file2', 'bbs_file0', 'code', 'idx', 'sdate', 'name'}, '__rel__': {}}
+2025-02-19 13:49:10,217 INFO     task             run_task  2개의 신규 데이터를 발견했습니다.
+2025-02-19 13:49:10,253 INFO     task             process_notice:174649 
+2025-02-19 13:49:10,254 INFO     task             embed_and_save_notice:174649  ID=174649, 제목=2024학년도 후기 2차 일반대학원 신(편)입생 모집 안내
+2025-02-19 13:49:10,339 INFO     task             embed_and_save_notice:174649  original_idx=174649, chunk=1 저장 완료
+2025-02-19 13:49:10,339 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
+2025-02-19 13:49:10,374 INFO     task             process_notice:174652 
+2025-02-19 13:49:10,375 INFO     task             embed_and_save_notice:174652  ID=174652, 제목=2024학년도 후기 2차 특수대학원 신(편)입생 모집 안내
+2025-02-19 13:49:10,464 INFO     task             embed_and_save_notice:174652  original_idx=174652, chunk=1 저장 완료
+2025-02-19 13:49:10,465 INFO     task             process_new_notices  신규 공지사항 처리 완료 original_idx={notice.idx}
